@@ -1,0 +1,27 @@
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <div style="color:red;font-size:10px">
+ <script language="JavaScript">
+ var x=prompt("podaj pierwsza liczbe =","");
+ var liczba1_krop=parseInt(x);
+ var x=prompt("podaj pierwsza liczbe =","");
+ var liczba2_krop=parseInt(x);
+ 
+ if(liczba1_krop<liczba2_krop){
+ for(i=liczba1_krop;i<=liczba2_krop;i++){
+ if(i%2==1){
+ document.write("<p style=\"font-size:24px;\"><br>"+i+"<br></p>");}}}
+ else if(liczba1_krop>liczba2_krop){
+ for(i=liczba1_krop;i>liczba2_krop;i--){
+ if(i%2==1){
+ document.write("<p style=\"font-size:24px;\"><br>"+i+"<br></p>");}}}
+ else if(liczba1_krop==liczba2_krop){
+ document.write("Brak <br>");
+ }
+ </script>
+ </div>
+</head>
+<body>
+</body>
+</html>
